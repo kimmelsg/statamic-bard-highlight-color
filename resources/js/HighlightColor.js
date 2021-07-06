@@ -15,7 +15,7 @@ export default class HighlightColor {
       },
       parseDOM: [
         {
-          style: "color",
+          style: "background",
           getAttrs: value => ({ color: value })
         }
       ],
