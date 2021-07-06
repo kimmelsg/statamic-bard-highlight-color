@@ -10,7 +10,7 @@
                         @click="showColorMenu = !showColorMenu"
                 />
                 <div
-                        class="absolute left-10 bg-gray-200 px-1 rounded-sm flex flex-wrap min-w-250 lg:min-w-500 z-10 max-h-300px overflow-y-scroll"
+                        class="absolute left-10 bg-white px-1 rounded-lg flex flex-wrap min-w-250 lg:min-w-500 z-10 max-h-300px overflow-y-scroll border-2 border-gray-5000"
                         :class="{ hidden: !showColorMenu }"
                 >
                         <template v-for="(color, index) in availableColors">
