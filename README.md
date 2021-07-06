@@ -11,8 +11,8 @@ At the moment it's still under development. Please report any bugs that you have
 - composer require kimmelsg/statamic-bard-highlight-color
 
 ![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)
-[![Total Downloads](https://img.shields.io/packagist/dt/xndbogdan/statamic-bard-text-color.svg)](https://packagist.org/packages/xndbogdan/statamic-bard-text-color)
+[![Total Downloads](https://img.shields.io/packagist/dt/kimmelsg/statamic-bard-highlight-color.svg)](https://packagist.org/packages/kimmelsg/statamic-bard-highlight-color)
 
 ## New additions
 
-- color menu is now scrollable, instead of filling the whole screen
+Updated color menu.
