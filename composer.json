@@ -1,0 +1,29 @@
+{
+  "require": {
+    "php": "^7.4 | ^8.0",
+    "statamic/cms": "^3.0.14"
+  },
+  "name": "kimmelsg/statamic-bard-highlight-color",
+  "keywords": ["statamic", "bard", "highlight-color"],
+  "description": "Statamic Bard Highlight Color",
+  "autoload": {
+    "psr-4": {
+      "Kimmelsg\\BardHighlightColor\\": "src"
+    }
+  },
+  "type": "statamic-addon",
+  "extra": {
+    "statamic": {
+      "name": "Statamic Bard Highlight Color",
+      "description": "Highlight Color plugin for statamic bard"
+    },
+    "laravel": {
+      "providers": ["Kimmelsg\\BardHighlightColor\\ServiceProvider"]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
