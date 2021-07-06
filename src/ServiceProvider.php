@@ -8,7 +8,7 @@ use Statamic\Providers\AddonServiceProvider;
 class ServiceProvider extends AddonServiceProvider
 {
     protected $scripts = [
-        __DIR__.'/../dist/js/highlight.js',
+        __DIR__.'/../dist/js/highlightcolor.js',
     ];
 
     public function boot() {
