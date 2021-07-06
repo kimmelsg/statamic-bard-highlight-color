@@ -9,7 +9,7 @@ export default class HighlightColor {
   schema() {
     return {
       attrs: {
-        color: {
+        background: {
           default: "#000"
         }
       },
@@ -21,7 +21,7 @@ export default class HighlightColor {
       ],
       toDOM: mark => [
         "span",
-        { style: `color: ${mark.attrs.color}!important;` },
+        { style: `background: ${mark.attrs.color}!important;` },
         0
       ]
     };
