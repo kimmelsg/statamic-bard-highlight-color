@@ -1,6 +1,6 @@
 # Statamic Bard Text Color Extension
 
-![alt text](https://github.com/kimmelsg/statamic-bard-highlight-color/blob/main/preview.png "Preview")
+![alt text](https://github.com/kimmelsg/statamic-bard-highlight-color/blob/master/preview.png "Preview")
 
 A statamic bard plugin that lets you change text background color!
 It allows you to use the default tailwind colors.
