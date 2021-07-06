@@ -9,14 +9,14 @@ export default class HighlightColor {
   schema() {
     return {
       attrs: {
-        background: {
+        color: {
           default: "#000"
         }
       },
       parseDOM: [
         {
           style: "background",
-          getAttrs: value => ({ color: value })
+          getAttrs: value => ({ background: value })
         }
       ],
       toDOM: mark => [
