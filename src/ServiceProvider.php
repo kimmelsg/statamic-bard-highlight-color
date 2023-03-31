@@ -13,6 +13,6 @@ class ServiceProvider extends AddonServiceProvider
 
     public function boot() {
         parent::boot();
-        Augmentor::addMark(HighlightColor::class);
+        Augmentor::addExtension(HighlightColor::class);
     }
 }
